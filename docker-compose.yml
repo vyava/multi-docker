@@ -31,7 +31,7 @@ services:
       - POSTGRES_USER=postgres
       - PGHOST=postgres
       - POSTGRES_DB=postgres
-      - POSTGRES_PASSWORD=mysecretpassword
+      - POSTGRES_PASSWORD=postgrespassword
       - PGPORT=5432
   client:
     build:

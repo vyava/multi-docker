@@ -1,0 +1,37 @@
+{
+  "AWSEBDockerrunVersion" : 2,
+  "containerDefinitions" : [
+    {
+      "name" : "client",
+      "image" : "zafergenc/multi-client",
+      "hostname" : "client",
+      "essential" : false
+    },
+    {
+      "name" : "server",
+      "image" : "zafergenc/multi-server",
+      "hostname" : "api",
+      "essential" : false
+    },
+    {
+      "name" : "worker",
+      "image" : "zafergenc/multi-worker",
+      "hostname" : "worker",
+      "essential" : false
+    },
+    {
+      "name" : "nginx",
+      "image" : "zafergenc/multi-nginx",
+      "hostname" : "nginx",
+      "essential" : true,
+      "portMappings" : [
+        {
+          "hostPort" : 80,
+          "containerPort" : 80
+        }
+      ],
+      "links" : ["client", "server"]
+    }
+  ]
+
+}

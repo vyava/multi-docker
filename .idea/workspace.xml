@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8a59cbb0-ef78-46cc-a676-f3cc06b2ae3e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +22,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -46,7 +50,10 @@
       <workItem from="1565279911495" duration="460000" />
       <workItem from="1565280421635" duration="392000" />
       <workItem from="1565812259642" duration="69000" />
-      <workItem from="1565812330390" duration="1564000" />
+      <workItem from="1565812330390" duration="2083000" />
+      <workItem from="1565883586161" duration="4187000" />
+      <workItem from="1565979469261" duration="2638000" />
+      <workItem from="1566066746625" duration="1475000" />
     </task>
     <servers />
   </component>
