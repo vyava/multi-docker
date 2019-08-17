@@ -5,19 +5,22 @@
       "name" : "client",
       "image" : "zafergenc/multi-client",
       "hostname" : "client",
-      "essential" : false
+      "essential" : false,
+      "memoryReservation" : 20
     },
     {
       "name" : "server",
       "image" : "zafergenc/multi-server",
       "hostname" : "api",
-      "essential" : false
+      "essential" : false,
+      "memoryReservation" : 20
     },
     {
       "name" : "worker",
       "image" : "zafergenc/multi-worker",
       "hostname" : "worker",
-      "essential" : false
+      "essential" : false,
+      "memoryReservation" : 20
     },
     {
       "name" : "nginx",
@@ -30,7 +33,8 @@
           "containerPort" : 80
         }
       ],
-      "links" : ["client", "server"]
+      "links" : ["client", "server"],
+      "memoryReservation" : 20
     }
   ]
 
